@@ -169,13 +169,7 @@ async function handleSearchClick() {
     return;
   }
 
-  if (!isLoggedIn.value) {
-    pendingSearch.value = true;
-    authMode.value = 'login';
-    showAuthModal.value = true;
-    return;
-  }
-
+  // Directly call API without requiring login
   try {
     isLoading.value = true;
     await fetchJobsFromApi();
