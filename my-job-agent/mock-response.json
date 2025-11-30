@@ -1,0 +1,221 @@
+{
+  "results": [
+    {
+      "title": ".NET Developer (Dotnet)",
+      "company": "Geekgarden",
+      "description": "Design and implement high-quality, scalable, and secure .NET applications using C#, ASP.NET, and other .NET technologies. Work with relational database. Integrate with third-party services, APIs, and external systems. Conduct code reviews and ensure best practices are followed. Troubleshoot and debug issues across multiple browsers and platforms. Presenting work results to the development team or to clients when needed.",
+      "location": "",
+      "work_type": "contract",
+      "site_setting": "Hybrid",
+      "url": "https://glints.com/opportunities/jobs/net-developer-dotnet/aba94a08-d370-44e0-8047-9fc60e6ab2e4?utm_referrer=company_profile",
+      "source": "web",
+      "tags": [
+        "ASP.NET",
+        ".NET",
+        ".NET Core"
+      ],
+      "salary": "IDR 5,000,000 - 7,000,000/Month",
+      "requirements": "Have minimum 1-3 years of professional experience in .NET development (C#, ASP.NET, MVC, .NET Core). Strong proficiency in C#, ASP.NET, and related .NET technologies. Strong experience with relational databases (SQL Server, MySQL, etc.), writing complex queries, stored procedures, and database design.",
+      "experience_level": "mid",
+      "match_score": 85,
+      "match_reason": "The candidate's skills and experience with .NET, C#, ASP.NET, MVC, and relational databases (MySQL, Oracle) strongly align with the job requirements. The candidate's preferred hybrid work model also matches the job's site setting."
+    },
+    {
+      "title": "Web Developer",
+      "company": "PT LAVINTA BUANA SAKTI",
+      "description": "Develop, modify, and evaluate programs/applications. Understand user needs, analyze, and provide input on programs/UI/UX. Apply analytical considerations in designing program logic and selecting/adapting standard programming procedures. Located in HO Kembangan, West Jakarta.",
+      "location": "Jakarta Barat, Indonesia",
+      "work_type": "full_time",
+      "site_setting": "Unknown",
+      "url": "https://glints.com/opportunities/jobs//f976192b-c982-4c62-afcd-674d08b7d9e0",
+      "source": "web",
+      "tags": [
+        "Model-View-Controller (MVC)",
+        "Microsoft SQL Server",
+        "Vue.js",
+        "MySQL",
+        "C#",
+        "PHP",
+        ".NET",
+        "Laravel"
+      ],
+      "salary": "IDR 5,000,000 - 7,000,000/Month",
+      "requirements": "Proficient in C#, Full Stack .NET, MVC, MySQL/SQL Server, PHP, VUE, Laravel. Good time management, able to work in a team and under pressure, high learning spirit. 1-3 years experience, Minimum Bachelor’s Degree, 20-40 years old",
+      "experience_level": "mid",
+      "match_score": 85,
+      "match_reason": "This job is a strong match for the candidate. The candidate possesses the required skills (C#, .NET, MVC, MySQL, PHP, Laravel) and experience level, and the location aligns with their preferences. The job type (full-time) also matches the candidate's preference."
+    },
+    {
+      "title": "Backend Developer (ASP.NET)",
+      "company": "Pt Satkomindo Mediyasa",
+      "description": "Minimal 2 tahun pengalaman menggunakan ASP.NET Core Web API. Menguasai C#, dan SQL (Microsoft SQL Server atau MySQL). Memahami konsep logging & observability. Pengalaman integrasi Bitbucket + CI/CD pipelines. Menguasai REST API design best practice, versioning, error handling, dan authentication (JWT, OAuth2). Memahami Clean Code, Dependency Injection, dan arsitektur modular. Familiar dengan unit testing. Mampu melakukan optimisasi query & indeks database. Terbiasa dengan Git workflow.",
+      "location": "",
+      "work_type": "contract",
+      "site_setting": "Unknown",
+      "url": "https://glints.com/opportunities/jobs/backend-developer-aspnet/b359d1ac-a34c-4626-8b8f-7b78b0d40ec9",
+      "source": "web",
+      "tags": [
+        "REST API",
+        "C#",
+        "MySQL",
+        "GIT",
+        "ASP.NET",
+        "Microsoft SQL Server",
+        "Bitbucket",
+        "CI/CD"
+      ],
+      "salary": "IDR 6,800,000 - 10,200,000/Month",
+      "requirements": "1 - 3 years of experience, Minimum Bachelor’s Degree, ASP.NET Core Web API, C#, SQL, Bitbucket + CI/CD pipelines, REST API design, Clean Code, Dependency Injection, Git workflow",
+      "experience_level": "mid",
+      "match_score": 75,
+      "match_reason": "The candidate's skills in .NET Core, C#, MySQL, and Git align well with the job's requirements. While the candidate has 1 year of experience, the job posting seeks 1-3 years, making it a reasonable fit, although the contract work type is not preferred."
+    },
+    {
+      "title": ".NET Developer",
+      "company": "NTT INDONESIA TECHNOLOGY",
+      "description": "Write clean, scalable code using .NET programming languages. Remain up to date with the terminology, concepts and best practices for coding mobile apps. Develop technical interfaces, specifications, and architecture. Use and adapt existing web applications for apps. Create and test software prototypes. Develop client displays and user interfaces. Assist software personnel in handling project related work and other requirements. Coordinate with other software professionals and developers",
+      "location": "Central Jakarta, Indonesia",
+      "work_type": "full_time",
+      "site_setting": "Unknown",
+      "url": "https://www.kalibrr.com/c/ntt-indonesia/jobs/75946/net-developer",
+      "source": "web",
+      "tags": [
+        ".NET",
+        "C#",
+        "ASP.NET",
+        "SQL Server",
+        "Oracle",
+        "AngularJs",
+        "JQuery",
+        "EntityFramework",
+        "Web API",
+        "Web Services"
+      ],
+      "date_posted": "2025-10-14T02:48:32.059841+00:00",
+      "requirements": "Bachelor degree in computer science / IT, 3+ years experience in .NET development (C#, ASP.NET MVC, ASP.NET Web Form, AngularJs, JQuery, EntityFramework, Web API, Web Services), SQL Server / Oracle experience, ASP.NET component KendoUI/Devexpress experience, SVN/Git/TFS experience, good analytical skills",
+      "experience_level": "mid",
+      "match_score": 75,
+      "match_reason": "The candidate possesses many of the required skills, including .NET, C#, Oracle, and JQuery. While the candidate has less than the desired 3+ years of .NET experience, their skills and preferred full-time job type align well with the job description."
+    },
+    {
+      "title": "Programmer .NET Angular",
+      "company": "MSBU",
+      "description": "Kualifikasi:\nMemiliki pengalaman sebagai Programmer minimal 4 tahun\nMenguasai teknis pemrograman, antara lain: C#, Java, PHP, .Net Core, MVC, Angular, Java, CSS/HTML 5, SQL, SSIS/ETL, atau Power BI/SSRS;\nMemahami konsep pengembangan aplikasi misalnya Waterfall, Agile, atau Scrum;\nLebih diutamakan memiliki pengalaman dalam mengembangkan mobile application.",
+      "location": "",
+      "work_type": "full_time",
+      "site_setting": "Unknown",
+      "url": "https://glints.com/opportunities/jobs/programmer-net-angular/de66343d-2f63-42dd-9633-447ca1af88ef",
+      "source": "web",
+      "tags": [
+        ".NET",
+        "Angular.js",
+        "C#"
+      ],
+      "salary": "IDR 8,000,000 - 12,000,000/Month",
+      "requirements": "5 - 10 years of experience, Minimum Bachelor’s Degree",
+      "experience_level": "mid",
+      "match_score": 65,
+      "match_reason": "The candidate possesses several skills mentioned in the job description, including .NET Core, MVC, C#, and CSS/HTML. However, the job requires 4 years of experience, while the candidate has only 1 year, and the candidate does not list Angular as a skill."
+    }
+  ],
+  "profile": {
+    "name": "HILARIUS ANGGITO ARYA PRAMUDYA",
+    "email": "aryapramudya14@gmail.com",
+    "phone": "6285176781601",
+    "summary": "I'm a Software Engineer with experience building and optimizing enterprise applications across retail, manufacturing, and fintech. Currently at\nIndomaret Group, currently I focus on modernizing legacy systems into .NET Core 8 MVC, integrating hardware with web platforms directly, and\nimproving system performance with maintainability through code and database optimization.",
+    "title": "Software Developer",
+    "experience_years": 1,
+    "skills": [
+      ".NET Core",
+      ".NET MVC",
+      "C#",
+      "CodeIgniter",
+      "Laravel",
+      "Javascript",
+      "MySQL",
+      "Oracle",
+      "Kafka",
+      "PHP",
+      "Jquery",
+      "Gin",
+      "CSS/SCSS",
+      "HTML"
+    ],
+    "technical_stack": [
+      ".NET",
+      "MVC",
+      "C#",
+      "CodeIgniter",
+      "Laravel",
+      "Javascript",
+      "MySQL",
+      "Oracle",
+      "Kafka",
+      "PHP",
+      "Jquery",
+      "Gin",
+      "CSS",
+      "SCSS",
+      "HTML"
+    ],
+    "languages": [
+      "English",
+      "Indonesian"
+    ],
+    "preferred_roles": [
+      "Software Engineer",
+      "Fullstack Engineer"
+    ],
+    "preferred_locations": [
+      "Jakarta",
+      "Remote"
+    ],
+    "preferred_remote_modes": [
+      "Hybrid"
+    ],
+    "preferred_job_types": [
+      "full_time"
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's degree",
+        "field": "Computer Science",
+        "institution": "Universitas Dian Nuswantoro",
+        "year": 2023
+      },
+      {
+        "degree": "High School Diploma",
+        "field": "MIPA",
+        "institution": "SMA 3 SEMARANG",
+        "year": 2018
+      }
+    ],
+    "work_history": [
+      {
+        "title": "IT Specialist Software Developer",
+        "company": "Indomaret Group",
+        "location": "Jakarta, Indonesia, Hybrid",
+        "start_date": "09/2023",
+        "end_date": "Present",
+        "description": "One of Indonesia's largest retail companies, Indomaret Group operates an extensive network of convenience stores and supermarkets across the country.\nImplemented fraud and human error prevention by integrating a bench scale with a website using the Web Serial API with Text To Speech feature\nthrough client devices.\nTransformed a website into an SPA to maintain device connection with bench scale across pages, enhancing user experience using .NET MVC,\nJQuery and currently refactoring it to .NET Core 8 MVC and htmx with component based frontend to improve maintainability and reusability.\nUtilizing AI tools to help boost development productivity and debug issues resulted in more than 50% time saved.\nOversaw Git workflow across multiple active branches, resolving merge conflicts to maintain code integrity and collaboration efficiency.\nRefactored inefficient code, slow query and potential errors either from the source code or inefficient index in database.\nHelped designing how user request should be implemented to the website together with the Business Analyst"
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Pura Barutama",
+        "location": "Kudus, Central Java, Indonesia, Onsite",
+        "start_date": "07/2022",
+        "end_date": "09/2023",
+        "description": "Pura Barutama is one of the biggest printing and packaging company in Southeast Asia with more than 200 patents in Indonesia.\nFixed bugs and refactor existing codes to be more readable and efficient.\nCreating new ERP Software for a new factory while maintaining old ERP Software for other factory.\nCreating flowchart and documentation for the new ERP Software.\n• Observer and Auditee for ISO 9001:2015 internal audit."
+      },
+      {
+        "title": "Junior Fullstack Engineer",
+        "company": "Sakumas",
+        "location": "Remote",
+        "start_date": "03/2022",
+        "end_date": "08/2022",
+        "description": "Sakumas is a platform for buying and selling gold-based products in the form of jewelry or precious metals through digital gold media.\nReviewed code, debugged problems and corrected issues.\nWriting clean, readable, low-latency codes and refactoring old codes.\n•\nIntegrating third party APIs such as payment gateway, shipping fees, SMS, gold price, and KYC.\nCollaborate with other developers to develop the website.\nCreating unit testing for the API using PHP and testing it manually using Postman.\nDesign, develop and maintain RESTful API and normalized the database, adding new features to the website."
+      }
+    ]
+  },
+  "total_results": 5
+}
