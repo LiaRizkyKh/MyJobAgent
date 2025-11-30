@@ -1,9 +1,11 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount, watch } from 'vue';
 import AuthModal from './components/AuthModal.vue';
-import sampleResponse from '../mock-response.json'; // pastikan file ini ada
+// API endpoint - use environment variable or fallback to production URL
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://myjobmatch-backend-355671284742.asia-southeast2.run.app';
 
 const cvFile = ref(null);
+const cvText = ref(''); // optional CV text input
 const jobQuery = ref('');
 
 const showAuthModal = ref(false);
@@ -121,12 +123,42 @@ function transformApiResponseToJobs(apiResponse) {
   });
 }
 
-/* === sementara pakai mock-response.json, nanti diganti ke API beneran === */
+/* === Fetch jobs from real API with file upload === */
 async function fetchJobsFromApi() {
-  // kalau nanti sudah punya API beneran, ganti isi fungsi ini jadi fetch(API_URL, ...)
-  const data = sampleResponse;
-  jobResults.value = transformApiResponseToJobs(data);
-  hasSearched.value = true;
+  const formData = new FormData();
+  
+  // Add CV file if selected
+  if (cvFile.value) {
+    formData.append('cv_file', cvFile.value);
+  }
+  
+  // Add CV text if provided (or use job query as fallback)
+  const textContent = cvText.value.trim() || jobQuery.value.trim();
+  if (textContent) {
+    formData.append('cv_text', textContent);
+  }
+  
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/search-jobs`, {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+      },
+      body: formData,
+    });
+    
+    if (!response.ok) {
+      const errorData = await response.json().catch(() => ({}));
+      throw new Error(errorData.detail || `HTTP error! status: ${response.status}`);
+    }
+    
+    const data = await response.json();
+    jobResults.value = transformApiResponseToJobs(data);
+    hasSearched.value = true;
+  } catch (error) {
+    console.error('API Error:', error);
+    throw error;
+  }
 }
 
 /* === HANDLER FORM & FILE === */
