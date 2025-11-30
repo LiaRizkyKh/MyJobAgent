@@ -337,8 +337,9 @@ async function handleAuthSuccess(payload) {
               />
             </div> -->
 
-            <button type="submit" class="btn btn-primary full-width mt-3">
-              Mulai Cari Pekerjaan
+            <button type="submit" class="btn btn-primary full-width mt-3" :disabled="isLoading">
+              <span v-if="isLoading" class="loading-spinner"></span>
+              {{ isLoading ? 'Mencari...' : 'Mulai Cari Pekerjaan' }}
             </button>
             <p class="sub-note">
               *Untuk menyimpan hasil, Anda perlu login ke My Job Agent.
@@ -348,9 +349,18 @@ async function handleAuthSuccess(payload) {
 
       </section>
 
+      <!-- LOADING INDICATOR -->
+      <section v-if="isLoading" class="loading-section">
+        <div class="loading-content">
+          <div class="loading-spinner-large"></div>
+          <h3>Menganalisis CV Anda...</h3>
+          <p>Mohon tunggu, kami sedang mencocokkan profil Anda dengan lowongan terbaik.</p>
+        </div>
+      </section>
+
       <!-- RESULTS -->
       <section
-        v-if="hasSearched"
+        v-if="hasSearched && !isLoading"
         class="results-section"
       >
         <div class="results-header">
@@ -959,5 +969,64 @@ async function handleAuthSuccess(payload) {
     justify-content: space-between;
     margin-top: 0.5rem;
   } */
+}
+
+/* Loading Spinner Styles */
+.loading-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.loading-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  margin-top: 2rem;
+}
+
+.loading-content {
+  text-align: center;
+  max-width: 400px;
+}
+
+.loading-content h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.25rem;
+  color: var(--text);
+}
+
+.loading-content p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted-strong);
+}
+
+.loading-spinner-large {
+  width: 48px;
+  height: 48px;
+  border: 4px solid var(--border-subtle);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Disabled button state */
+.btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
 }
 </style>
